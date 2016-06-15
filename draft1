@@ -1,0 +1,2 @@
+Note how the next shell prompt appears at the end of the last line of output 
+because, in this example, the 128 bytes don’t form a whole number of lines.

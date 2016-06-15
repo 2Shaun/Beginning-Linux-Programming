@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# the value of this is lost
+# since foo is NULL in the other script
+# it outputs as a new line
+foo="The first meta-syntactic variable"
+export bar="The second meta-syntactic variable"
+
+./export2
