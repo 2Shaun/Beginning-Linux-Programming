@@ -24,6 +24,8 @@ int main()
 	while(read(in,&c,1) == 1)
 		// flushes the buffer
 		write(out,&c,1);
+	// for a file of 1MB or 1000000 bytes, since each character is
+	// 1 byte, that's over 2000000 system calls (1m reads and 1m writes)
 
 	exit(0);
 }
